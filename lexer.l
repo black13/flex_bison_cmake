@@ -1,6 +1,6 @@
 %{
 #include <string>
-#include "parser.h"
+#include "parser.hpp"
 
 %}
 %option outfile="lex.cpp" header-file="lex.h"

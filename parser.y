@@ -26,8 +26,7 @@ typedef void * yyscan_t;
 #include <string>
 #include <vector>
 }
-%output "parser.cpp"
-%defines "parser.h"
+
 %define api.pure full
 %lex-param{ yyscan_t scanner }
 %parse-param{ yyscan_t scanner } {std::string & result}
